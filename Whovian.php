@@ -46,4 +46,5 @@ class Whovian
 
         return 'I agree!';
     }
+return 'I agree!';
 }
