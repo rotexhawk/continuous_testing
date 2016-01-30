@@ -46,4 +46,5 @@ class Whovian
 
         return 'I agree!';
     }
+    echo 'this is an error';
 }
