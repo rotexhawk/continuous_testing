@@ -7,4 +7,10 @@ php:
   - hhvm
 install:
   - composer install --no-dev --quiet
+notifications:
+  email:
+    recipients:
+      - yasinyaqoobi@gmail.com
+    on_success: change
+    on_failure: always
 script: phpunit -c phpunit.xml --coverage-text
